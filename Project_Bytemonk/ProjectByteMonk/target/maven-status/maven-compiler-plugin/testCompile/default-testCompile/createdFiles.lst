@@ -1,0 +1,4 @@
+com\example\ByteMonk\ProjectByteMonk\Model\IncidentReportTest.class
+com\example\ByteMonk\ProjectByteMonk\Service\IncidentReportServiceTest.class
+com\example\ByteMonk\ProjectByteMonk\Controller\IncidentReportSecurityTest.class
+com\example\ByteMonk\ProjectByteMonk\ProjectByteMonkApplicationTests.class

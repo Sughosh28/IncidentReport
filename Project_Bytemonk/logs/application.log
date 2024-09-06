@@ -1,0 +1,640 @@
+2024-09-06T11:26:25.947+05:30  INFO 10456 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 10456 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T11:26:25.977+05:30  INFO 10456 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T11:26:28.218+05:30  INFO 10456 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T11:26:28.397+05:30  INFO 10456 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+2024-09-06T11:26:29.834+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T11:26:29.868+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T11:26:29.869+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T11:26:30.026+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T11:26:30.027+05:30  INFO 10456 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3929 ms
+2024-09-06T11:26:30.126+05:30  INFO 10456 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T11:26:30.617+05:30  INFO 10456 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T11:26:30.623+05:30  INFO 10456 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T11:26:30.650+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T11:26:31.079+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T11:26:31.264+05:30  INFO 10456 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T11:26:31.384+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T11:26:32.350+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T11:26:32.479+05:30  WARN 10456 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T11:26:34.361+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T11:26:34.444+05:30  INFO 10456 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:26:34.958+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T11:26:36.397+05:30  WARN 10456 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T11:26:37.201+05:30  INFO 10456 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T11:26:37.564+05:30  INFO 10456 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T11:26:37.583+05:30  INFO 10456 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 13.035 seconds (process running for 14.12)
+2024-09-06T11:26:50.400+05:30  INFO 10456 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T11:26:50.401+05:30  INFO 10456 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T11:26:50.405+05:30  INFO 10456 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-09-06T11:26:50.520+05:30  INFO 10456 --- [ProjectByteMonk] [http-nio-8085-exec-1] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 103ms
+  Start-time: 2024-09-06T11:26:50.417846+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:26:50.520687800+05:30[Asia/Calcutta]
+2024-09-06T11:27:25.385+05:30  INFO 10456 --- [ProjectByteMonk] [http-nio-8085-exec-4] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: application/json
+ Status: 200  Timestamp: 585ms
+  Start-time: 2024-09-06T11:27:24.799615800+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:27:25.384659100+05:30[Asia/Calcutta]
+2024-09-06T11:27:51.760+05:30  INFO 10456 --- [ProjectByteMonk] [http-nio-8085-exec-8] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 10ms
+  Start-time: 2024-09-06T11:27:51.750242400+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:27:51.760241900+05:30[Asia/Calcutta]
+2024-09-06T11:28:43.689+05:30  INFO 10456 --- [ProjectByteMonk] [http-nio-8085-exec-8] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 6ms
+  Start-time: 2024-09-06T11:28:43.683999200+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:28:43.689998900+05:30[Asia/Calcutta]
+2024-09-06T11:29:30.959+05:30  INFO 10456 --- [ProjectByteMonk] [http-nio-8085-exec-3] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/login
+ Content Type: null
+ Status: 302  Timestamp: 13ms
+  Start-time: 2024-09-06T11:29:30.946170100+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:29:30.959168700+05:30[Asia/Calcutta]
+2024-09-06T11:41:37.448+05:30  INFO 10456 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:41:37.567+05:30  INFO 10456 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T11:41:37.595+05:30  INFO 10456 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T11:42:04.294+05:30  INFO 14816 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 14816 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T11:42:04.299+05:30  INFO 14816 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T11:42:05.672+05:30  INFO 14816 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T11:42:05.780+05:30  INFO 14816 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2024-09-06T11:42:06.823+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T11:42:06.842+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T11:42:06.842+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T11:42:06.928+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T11:42:06.929+05:30  INFO 14816 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2529 ms
+2024-09-06T11:42:06.983+05:30  INFO 14816 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T11:42:07.365+05:30  INFO 14816 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T11:42:07.368+05:30  INFO 14816 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T11:42:07.393+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T11:42:07.700+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T11:42:07.849+05:30  INFO 14816 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T11:42:07.919+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T11:42:08.489+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T11:42:08.597+05:30  WARN 14816 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T11:42:09.831+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T11:42:09.873+05:30  INFO 14816 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:42:10.405+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T11:42:11.414+05:30  WARN 14816 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T11:42:12.019+05:30  INFO 14816 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T11:42:12.272+05:30  INFO 14816 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T11:42:12.284+05:30  INFO 14816 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 9.05 seconds (process running for 9.883)
+2024-09-06T11:43:44.234+05:30  INFO 14816 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T11:43:44.235+05:30  INFO 14816 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T11:43:44.238+05:30  INFO 14816 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-06T11:43:51.697+05:30  INFO 14816 --- [ProjectByteMonk] [http-nio-8085-exec-1] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 112ms
+  Start-time: 2024-09-06T11:43:51.585395+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:43:51.697406300+05:30[Asia/Calcutta]
+2024-09-06T11:49:08.134+05:30  INFO 14816 --- [ProjectByteMonk] [http-nio-8085-exec-10] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 8ms
+  Start-time: 2024-09-06T11:49:08.126200200+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:49:08.134200900+05:30[Asia/Calcutta]
+2024-09-06T11:52:07.529+05:30  INFO 14816 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:52:07.545+05:30  INFO 14816 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T11:52:07.554+05:30  INFO 14816 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T11:52:13.810+05:30  INFO 22428 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 22428 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T11:52:13.815+05:30  INFO 22428 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T11:52:15.108+05:30  INFO 22428 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T11:52:15.217+05:30  INFO 22428 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interface.
+2024-09-06T11:52:16.215+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T11:52:16.233+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T11:52:16.233+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T11:52:16.337+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T11:52:16.337+05:30  INFO 22428 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2429 ms
+2024-09-06T11:52:16.388+05:30  INFO 22428 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T11:52:16.811+05:30  INFO 22428 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T11:52:16.814+05:30  INFO 22428 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T11:52:16.831+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T11:52:17.127+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T11:52:17.283+05:30  INFO 22428 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T11:52:17.370+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T11:52:17.944+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T11:52:18.068+05:30  WARN 22428 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T11:52:19.288+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T11:52:19.333+05:30  INFO 22428 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:52:19.779+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T11:52:20.831+05:30  WARN 22428 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T11:52:20.906+05:30  INFO 22428 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T11:52:21.848+05:30  INFO 22428 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T11:52:21.864+05:30  INFO 22428 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 9.101 seconds (process running for 9.883)
+2024-09-06T11:52:55.036+05:30  INFO 22428 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T11:52:55.037+05:30  INFO 22428 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T11:52:55.039+05:30  INFO 22428 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-06T11:52:55.432+05:30  INFO 22428 --- [ProjectByteMonk] [http-nio-8085-exec-1] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: application/json
+ Status: 200  Timestamp: 384ms
+  Start-time: 2024-09-06T11:52:55.048247600+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:52:55.432278500+05:30[Asia/Calcutta]
+2024-09-06T11:55:24.340+05:30  INFO 22428 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:55:24.347+05:30  INFO 22428 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T11:55:24.353+05:30  INFO 22428 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T11:55:30.839+05:30  INFO 15072 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 15072 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T11:55:30.844+05:30  INFO 15072 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T11:55:32.192+05:30  INFO 15072 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T11:55:32.311+05:30  INFO 15072 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2024-09-06T11:55:33.661+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T11:55:33.695+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T11:55:33.695+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T11:55:33.852+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T11:55:33.852+05:30  INFO 15072 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2916 ms
+2024-09-06T11:55:33.911+05:30  INFO 15072 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T11:55:34.333+05:30  INFO 15072 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T11:55:34.337+05:30  INFO 15072 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T11:55:34.360+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T11:55:34.741+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T11:55:34.895+05:30  INFO 15072 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T11:55:34.979+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T11:55:35.755+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T11:55:35.864+05:30  WARN 15072 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T11:55:37.576+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T11:55:37.652+05:30  INFO 15072 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:55:38.241+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T11:55:39.673+05:30  WARN 15072 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T11:55:39.765+05:30  INFO 15072 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T11:55:40.772+05:30  INFO 15072 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T11:55:40.788+05:30  INFO 15072 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 10.982 seconds (process running for 11.818)
+2024-09-06T11:55:45.072+05:30  INFO 15072 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T11:55:45.073+05:30  INFO 15072 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T11:55:45.075+05:30  INFO 15072 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-06T11:55:45.187+05:30  INFO 15072 --- [ProjectByteMonk] [http-nio-8085-exec-1] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 103ms
+  Start-time: 2024-09-06T11:55:45.084939700+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:55:45.187942900+05:30[Asia/Calcutta]
+2024-09-06T11:56:10.981+05:30  INFO 15072 --- [ProjectByteMonk] [http-nio-8085-exec-3] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 6ms
+  Start-time: 2024-09-06T11:56:10.975928+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:56:10.981929800+05:30[Asia/Calcutta]
+2024-09-06T12:00:02.989+05:30  INFO 15072 --- [ProjectByteMonk] [http-nio-8085-exec-10] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 14ms
+  Start-time: 2024-09-06T12:00:02.975932200+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:00:02.989932800+05:30[Asia/Calcutta]
+2024-09-06T12:00:52.152+05:30  INFO 15072 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:00:52.159+05:30  INFO 15072 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T12:00:52.163+05:30  INFO 15072 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T12:00:55.296+05:30  INFO 16056 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 16056 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T12:00:55.300+05:30  INFO 16056 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T12:00:56.704+05:30  INFO 16056 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T12:00:56.806+05:30  INFO 16056 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interface.
+2024-09-06T12:00:57.746+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T12:00:57.766+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T12:00:57.766+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T12:00:57.866+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T12:00:57.866+05:30  INFO 16056 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2470 ms
+2024-09-06T12:00:57.914+05:30  INFO 16056 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T12:00:58.262+05:30  INFO 16056 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T12:00:58.265+05:30  INFO 16056 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T12:00:58.282+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T12:00:58.587+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T12:00:58.744+05:30  INFO 16056 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T12:00:58.838+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T12:00:59.428+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T12:00:59.521+05:30  WARN 16056 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T12:01:00.635+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T12:01:00.672+05:30  INFO 16056 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:01:01.194+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T12:01:02.128+05:30  WARN 16056 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T12:01:02.222+05:30  INFO 16056 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T12:01:03.156+05:30  INFO 16056 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T12:01:03.171+05:30  INFO 16056 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 8.87 seconds (process running for 9.679)
+2024-09-06T12:01:16.642+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T12:01:16.642+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T12:01:16.644+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T12:01:16.716+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-2] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 65ms
+  Start-time: 2024-09-06T12:01:16.651061200+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:01:16.716065900+05:30[Asia/Calcutta]
+2024-09-06T12:02:03.965+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-6] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 6ms
+  Start-time: 2024-09-06T12:02:03.959387200+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:02:03.965386800+05:30[Asia/Calcutta]
+2024-09-06T12:02:10.735+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-2] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getScrfToken
+ Content Type: null
+ Status: 302  Timestamp: 15ms
+  Start-time: 2024-09-06T12:02:10.720043600+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:02:10.735047400+05:30[Asia/Calcutta]
+2024-09-06T12:02:51.151+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-7] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 2ms
+  Start-time: 2024-09-06T12:02:51.149945200+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:02:51.151945+05:30[Asia/Calcutta]
+2024-09-06T12:03:02.956+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-8] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 2ms
+  Start-time: 2024-09-06T12:03:02.954194300+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:03:02.956196600+05:30[Asia/Calcutta]
+2024-09-06T12:03:14.691+05:30  INFO 16056 --- [ProjectByteMonk] [http-nio-8085-exec-2] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 2ms
+  Start-time: 2024-09-06T12:03:14.688824800+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:03:14.690831+05:30[Asia/Calcutta]
+2024-09-06T12:03:49.024+05:30  INFO 16056 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:03:49.029+05:30  INFO 16056 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T12:03:49.032+05:30  INFO 16056 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T12:03:53.626+05:30  INFO 17272 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 17272 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T12:03:53.631+05:30  INFO 17272 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T12:03:55.080+05:30  INFO 17272 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T12:03:55.185+05:30  INFO 17272 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2024-09-06T12:03:56.298+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T12:03:56.329+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T12:03:56.329+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T12:03:56.448+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T12:03:56.449+05:30  INFO 17272 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2717 ms
+2024-09-06T12:03:56.507+05:30  INFO 17272 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T12:03:56.895+05:30  INFO 17272 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T12:03:56.900+05:30  INFO 17272 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T12:03:56.922+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T12:03:57.372+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T12:03:57.569+05:30  INFO 17272 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T12:03:57.672+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T12:03:58.861+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T12:03:58.964+05:30  WARN 17272 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T12:04:00.104+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T12:04:00.153+05:30  INFO 17272 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:04:00.687+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T12:04:01.781+05:30  WARN 17272 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T12:04:02.397+05:30  INFO 17272 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T12:04:02.677+05:30  INFO 17272 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T12:04:02.693+05:30  INFO 17272 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 10.082 seconds (process running for 10.886)
+2024-09-06T12:04:11.406+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T12:04:11.407+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T12:04:11.408+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T12:04:12.106+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-2] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: application/json
+ Status: 200  Timestamp: 693ms
+  Start-time: 2024-09-06T12:04:11.413486+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:04:12.106649900+05:30[Asia/Calcutta]
+2024-09-06T12:04:20.669+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-3] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 401  Timestamp: 86ms
+  Start-time: 2024-09-06T12:04:20.583861900+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:04:20.669868300+05:30[Asia/Calcutta]
+2024-09-06T12:04:25.627+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-4] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: application/json
+ Status: 200  Timestamp: 100ms
+  Start-time: 2024-09-06T12:04:25.527861700+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:04:25.627870+05:30[Asia/Calcutta]
+2024-09-06T12:04:30.664+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-5] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncident%7B2%7D
+ Content Type: null
+ Status: 404  Timestamp: 98ms
+  Start-time: 2024-09-06T12:04:30.566400400+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:04:30.664406800+05:30[Asia/Calcutta]
+2024-09-06T12:04:37.185+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-6] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncident/2
+ Content Type: null
+ Status: 404  Timestamp: 92ms
+  Start-time: 2024-09-06T12:04:37.093379800+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:04:37.185387700+05:30[Asia/Calcutta]
+2024-09-06T12:04:47.003+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-7] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getIncident/2
+ Content Type: application/json
+ Status: 200  Timestamp: 102ms
+  Start-time: 2024-09-06T12:04:46.901263200+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:04:47.003953600+05:30[Asia/Calcutta]
+2024-09-06T12:05:00.111+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-8] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getCsrfToken
+ Content Type: application/json
+ Status: 200  Timestamp: 89ms
+  Start-time: 2024-09-06T12:05:00.022673800+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:05:00.111681600+05:30[Asia/Calcutta]
+2024-09-06T12:06:05.922+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-10] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 302  Timestamp: 12ms
+  Start-time: 2024-09-06T12:06:05.910457+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:06:05.922456400+05:30[Asia/Calcutta]
+2024-09-06T12:06:24.596+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-6] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/incidents
+ Content Type: application/json
+ Status: 200  Timestamp: 137ms
+  Start-time: 2024-09-06T12:06:24.459094500+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:06:24.596530500+05:30[Asia/Calcutta]
+2024-09-06T12:06:40.283+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-7] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: application/json
+ Status: 200  Timestamp: 95ms
+  Start-time: 2024-09-06T12:06:40.188780700+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:06:40.283791700+05:30[Asia/Calcutta]
+2024-09-06T12:07:14.370+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-8] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: POST
+ Endpoint Accessed: /api/incident/addIncident
+ Content Type: null
+ Status: 403  Timestamp: 2ms
+  Start-time: 2024-09-06T12:07:14.368226100+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:07:14.370226100+05:30[Asia/Calcutta]
+2024-09-06T12:07:21.269+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-9] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getCsrfToken
+ Content Type: application/json
+ Status: 200  Timestamp: 88ms
+  Start-time: 2024-09-06T12:07:21.181746100+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:07:21.269757300+05:30[Asia/Calcutta]
+2024-09-06T12:07:40.053+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-10] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: POST
+ Endpoint Accessed: /api/incident/addIncident
+ Content Type: null
+ Status: 403  Timestamp: 1ms
+  Start-time: 2024-09-06T12:07:40.052623+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:07:40.053624300+05:30[Asia/Calcutta]
+2024-09-06T12:07:51.868+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-1] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: POST
+ Endpoint Accessed: /api/incident/addIncident
+ Content Type: application/json
+ Status: 200  Timestamp: 200ms
+  Start-time: 2024-09-06T12:07:51.668271700+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:07:51.868519400+05:30[Asia/Calcutta]
+2024-09-06T12:07:59.233+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-2] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: application/json
+ Status: 200  Timestamp: 89ms
+  Start-time: 2024-09-06T12:07:59.144543600+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:07:59.233549700+05:30[Asia/Calcutta]
+2024-09-06T12:08:34.774+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-4] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: PUT
+ Endpoint Accessed: /api/incident/updateIncident/1
+ Content Type: null
+ Status: 403  Timestamp: 1ms
+  Start-time: 2024-09-06T12:08:34.773872100+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:08:34.774871300+05:30[Asia/Calcutta]
+2024-09-06T12:08:51.061+05:30  INFO 17272 --- [ProjectByteMonk] [http-nio-8085-exec-3] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:0:0:0:0:0:0:0:1
+ Method: PUT
+ Endpoint Accessed: /api/incident/updateIncident/1
+ Content Type: application/json
+ Status: 200  Timestamp: 166ms
+  Start-time: 2024-09-06T12:08:50.895988400+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:08:51.061003300+05:30[Asia/Calcutta]
+2024-09-06T12:11:51.328+05:30  INFO 17272 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:11:51.333+05:30  INFO 17272 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T12:11:51.337+05:30  INFO 17272 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T12:11:57.666+05:30  INFO 4156 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 4156 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T12:11:57.673+05:30  INFO 4156 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T12:11:58.948+05:30  INFO 4156 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T12:11:59.052+05:30  INFO 4156 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-09-06T12:12:00.034+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T12:12:00.062+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T12:12:00.063+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T12:12:00.173+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T12:12:00.174+05:30  INFO 4156 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2396 ms
+2024-09-06T12:12:00.223+05:30  INFO 4156 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T12:12:00.541+05:30  INFO 4156 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T12:12:00.545+05:30  INFO 4156 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T12:12:00.560+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T12:12:00.831+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T12:12:00.986+05:30  INFO 4156 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T12:12:01.077+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T12:12:01.777+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T12:12:01.879+05:30  WARN 4156 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T12:12:03.450+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T12:12:03.514+05:30  INFO 4156 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:12:04.095+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T12:12:05.229+05:30  WARN 4156 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T12:12:05.964+05:30  INFO 4156 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T12:12:06.273+05:30  INFO 4156 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T12:12:06.292+05:30  INFO 4156 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 9.622 seconds (process running for 10.423)
+2024-09-06T12:12:14.085+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T12:12:14.086+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T12:12:14.088+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T12:12:14.145+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-1] c.e.B.P.Filter.LoggingFilter             : 
+IP Address:0:0:0:0:0:0:0:1
+ Method: PUT
+ Endpoint Accessed: /api/incident/updateIncident/1
+ Content Type: null
+ Status: 403  Timestamp: 53ms
+  Start-time: 2024-09-06T12:12:14.092460300+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:12:14.145465+05:30[Asia/Calcutta]
+2024-09-06T12:12:21.589+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-3] c.e.B.P.Filter.LoggingFilter             : 
+IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getCsrfToken
+ Content Type: application/json
+ Status: 200  Timestamp: 286ms
+  Start-time: 2024-09-06T12:12:21.303103800+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:12:21.589124200+05:30[Asia/Calcutta]
+2024-09-06T12:12:46.229+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-4] c.e.B.P.Filter.LoggingFilter             : 
+IP Address:0:0:0:0:0:0:0:1
+ Method: PUT
+ Endpoint Accessed: /api/incident/updateIncident/1
+ Content Type: text/plain;charset=UTF-8
+ Status: 400  Timestamp: 150ms
+  Start-time: 2024-09-06T12:12:46.079178800+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:12:46.229949200+05:30[Asia/Calcutta]
+2024-09-06T12:13:01.231+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-6] c.e.B.P.Filter.LoggingFilter             : 
+IP Address:0:0:0:0:0:0:0:1
+ Method: PUT
+ Endpoint Accessed: /api/incident/updateIncident/1
+ Content Type: text/plain;charset=UTF-8
+ Status: 400  Timestamp: 94ms
+  Start-time: 2024-09-06T12:13:01.137733100+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:13:01.231740+05:30[Asia/Calcutta]
+2024-09-06T12:13:10.741+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-8] c.e.B.P.Filter.LoggingFilter             : 
+IP Address:0:0:0:0:0:0:0:1
+ Method: PUT
+ Endpoint Accessed: /api/incident/updateIncident/1
+ Content Type: text/plain;charset=UTF-8
+ Status: 400  Timestamp: 83ms
+  Start-time: 2024-09-06T12:13:10.658859900+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:13:10.741866100+05:30[Asia/Calcutta]
+2024-09-06T12:13:16.180+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-10] c.e.B.P.Filter.LoggingFilter             : 
+IP Address:0:0:0:0:0:0:0:1
+ Method: PUT
+ Endpoint Accessed: /api/incident/updateIncident/1
+ Content Type: application/json
+ Status: 200  Timestamp: 398ms
+  Start-time: 2024-09-06T12:13:15.782564700+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:13:16.180114600+05:30[Asia/Calcutta]
+2024-09-06T12:13:27.357+05:30  INFO 4156 --- [ProjectByteMonk] [http-nio-8085-exec-2] c.e.B.P.Filter.LoggingFilter             : 
+IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: application/json
+ Status: 200  Timestamp: 98ms
+  Start-time: 2024-09-06T12:13:27.258891+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:13:27.356896600+05:30[Asia/Calcutta]
+2024-09-06T12:14:45.136+05:30  INFO 4156 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:14:45.141+05:30  INFO 4156 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T12:14:45.144+05:30  INFO 4156 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T12:19:57.850+05:30  INFO 19272 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 19272 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T12:19:57.853+05:30  INFO 19272 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T12:19:59.418+05:30  INFO 19272 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T12:19:59.558+05:30  INFO 19272 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2024-09-06T12:20:01.133+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T12:20:01.163+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T12:20:01.163+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T12:20:01.292+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T12:20:01.293+05:30  INFO 19272 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3354 ms
+2024-09-06T12:20:01.374+05:30  INFO 19272 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T12:20:01.760+05:30  INFO 19272 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T12:20:01.764+05:30  INFO 19272 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T12:20:01.782+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T12:20:02.176+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T12:20:02.386+05:30  INFO 19272 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T12:20:02.482+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T12:20:03.204+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T12:20:03.302+05:30  WARN 19272 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T12:20:04.542+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T12:20:04.589+05:30  INFO 19272 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:20:05.309+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T12:20:06.419+05:30  WARN 19272 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T12:20:07.448+05:30  INFO 19272 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T12:20:07.858+05:30  INFO 19272 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T12:20:07.876+05:30  INFO 19272 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 11.392 seconds (process running for 12.404)
+2024-09-06T12:20:51.568+05:30  INFO 19272 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T12:20:51.568+05:30  INFO 19272 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T12:20:51.571+05:30  INFO 19272 --- [ProjectByteMonk] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-06T12:20:52.111+05:30  INFO 19272 --- [ProjectByteMonk] [http-nio-8085-exec-1] c.e.B.P.Filter.LoggingFilter             : 
+IP Address:0:0:0:0:0:0:0:1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: application/json
+ Status: 200  Timestamp: 533ms
+  Start-time: 2024-09-06T12:20:51.578431+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T12:20:52.111974600+05:30[Asia/Calcutta]
+2024-09-06T12:21:19.555+05:30  INFO 19272 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:21:19.561+05:30  INFO 19272 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T12:21:19.565+05:30  INFO 19272 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T12:21:23.373+05:30  INFO 2724 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 2724 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T12:21:23.379+05:30  INFO 2724 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T12:21:24.853+05:30  INFO 2724 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T12:21:24.998+05:30  INFO 2724 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interface.
+2024-09-06T12:21:26.192+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T12:21:26.222+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T12:21:26.222+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T12:21:26.390+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T12:21:26.392+05:30  INFO 2724 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2893 ms
+2024-09-06T12:21:26.469+05:30  INFO 2724 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T12:21:26.925+05:30  INFO 2724 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T12:21:26.928+05:30  INFO 2724 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T12:21:26.957+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T12:21:27.352+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T12:21:27.539+05:30  INFO 2724 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T12:21:27.643+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T12:21:28.467+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T12:21:28.586+05:30  WARN 2724 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T12:21:30.276+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T12:21:30.344+05:30  INFO 2724 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:21:30.840+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T12:21:32.198+05:30  WARN 2724 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T12:21:33.087+05:30  INFO 2724 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T12:21:33.425+05:30  INFO 2724 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T12:21:33.442+05:30  INFO 2724 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 11.256 seconds (process running for 12.271)
+2024-09-06T12:22:19.026+05:30  INFO 2724 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:22:19.034+05:30  INFO 2724 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T12:22:19.038+05:30  INFO 2724 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-06T12:22:24.297+05:30  INFO 5676 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Starting ProjectByteMonkApplication using Java 22 with PID 5676 (C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk\target\classes started by HP in C:\Users\HP\Desktop\Project_Bytemonk)
+2024-09-06T12:22:24.301+05:30  INFO 5676 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T12:22:25.909+05:30  INFO 5676 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T12:22:26.027+05:30  INFO 5676 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2024-09-06T12:22:27.248+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-09-06T12:22:27.274+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T12:22:27.275+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T12:22:27.407+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T12:22:27.408+05:30  INFO 5676 --- [ProjectByteMonk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3006 ms
+2024-09-06T12:22:27.466+05:30  INFO 5676 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T12:22:27.903+05:30  INFO 5676 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T12:22:27.910+05:30  INFO 5676 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T12:22:27.939+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T12:22:28.313+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T12:22:28.424+05:30  INFO 5676 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T12:22:28.477+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T12:22:29.097+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T12:22:29.190+05:30  WARN 5676 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T12:22:30.477+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T12:22:30.528+05:30  INFO 5676 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:22:31.074+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T12:22:31.980+05:30  WARN 5676 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T12:22:32.790+05:30  INFO 5676 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T12:22:33.173+05:30  INFO 5676 --- [ProjectByteMonk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-09-06T12:22:33.196+05:30  INFO 5676 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplication       : Started ProjectByteMonkApplication in 9.913 seconds (process running for 11.693)
+2024-09-06T12:22:40.868+05:30  INFO 5676 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T12:22:40.875+05:30  INFO 5676 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T12:22:40.880+05:30  INFO 5676 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

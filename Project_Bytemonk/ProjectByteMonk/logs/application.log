@@ -1,0 +1,47 @@
+2024-09-06T11:25:21.443+05:30  INFO 5688 --- [ProjectByteMonk] [main] c.e.B.P.C.IncidentReportSecurityTest     : Starting IncidentReportSecurityTest using Java 22 with PID 5688 (started by HP in C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk)
+2024-09-06T11:25:21.483+05:30  INFO 5688 --- [ProjectByteMonk] [main] c.e.B.P.C.IncidentReportSecurityTest     : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T11:25:27.765+05:30  INFO 5688 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T11:25:28.239+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-09-06T11:25:28.240+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-09-06T11:25:28.245+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2024-09-06T11:25:28.295+05:30  INFO 5688 --- [ProjectByteMonk] [main] c.e.B.P.C.IncidentReportSecurityTest     : Started IncidentReportSecurityTest in 8.072 seconds (process running for 11.166)
+2024-09-06T11:25:28.533+05:30  INFO 5688 --- [ProjectByteMonk] [main] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:127.0.0.1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 401  Timestamp: 128ms
+  Start-time: 2024-09-06T11:25:28.405669+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:25:28.533675400+05:30[Asia/Calcutta]
+2024-09-06T11:25:28.730+05:30  INFO 5688 --- [ProjectByteMonk] [main] c.e.B.P.Filter.LoggingFilter             : 
+ IP Address:127.0.0.1
+ Method: GET
+ Endpoint Accessed: /api/incident/getAllIncidents
+ Content Type: null
+ Status: 200  Timestamp: 110ms
+  Start-time: 2024-09-06T11:25:28.620682500+05:30[Asia/Calcutta]
+ End-time: 2024-09-06T11:25:28.730694100+05:30[Asia/Calcutta]
+2024-09-06T11:25:28.827+05:30  INFO 5688 --- [ProjectByteMonk] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.ByteMonk.ProjectByteMonk.ProjectByteMonkApplicationTests]: ProjectByteMonkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-06T11:25:28.855+05:30  INFO 5688 --- [ProjectByteMonk] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.ByteMonk.ProjectByteMonk.ProjectByteMonkApplication for test class com.example.ByteMonk.ProjectByteMonk.ProjectByteMonkApplicationTests
+2024-09-06T11:25:29.014+05:30  INFO 5688 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplicationTests  : Starting ProjectByteMonkApplicationTests using Java 22 with PID 5688 (started by HP in C:\Users\HP\Desktop\Project_Bytemonk\ProjectByteMonk)
+2024-09-06T11:25:29.015+05:30  INFO 5688 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T11:25:29.749+05:30  INFO 5688 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T11:25:29.835+05:30  INFO 5688 --- [ProjectByteMonk] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2024-09-06T11:25:30.372+05:30  INFO 5688 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T11:25:30.823+05:30  INFO 5688 --- [ProjectByteMonk] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:incidentDB user=SA
+2024-09-06T11:25:30.826+05:30  INFO 5688 --- [ProjectByteMonk] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T11:25:30.919+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T11:25:31.050+05:30  INFO 5688 --- [ProjectByteMonk] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-06T11:25:31.146+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T11:25:31.465+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T11:25:31.571+05:30  WARN 5688 --- [ProjectByteMonk] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T11:25:32.879+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T11:25:32.954+05:30  INFO 5688 --- [ProjectByteMonk] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:25:33.581+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-06T11:25:36.715+05:30  WARN 5688 --- [ProjectByteMonk] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T11:25:37.222+05:30  INFO 5688 --- [ProjectByteMonk] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:incidentDB'
+2024-09-06T11:25:37.391+05:30  INFO 5688 --- [ProjectByteMonk] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-06T11:25:37.537+05:30  INFO 5688 --- [ProjectByteMonk] [main] c.e.B.P.ProjectByteMonkApplicationTests  : Started ProjectByteMonkApplicationTests in 8.663 seconds (process running for 20.408)
+2024-09-06T11:25:38.169+05:30  INFO 5688 --- [ProjectByteMonk] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T11:25:38.183+05:30  INFO 5688 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T11:25:38.201+05:30  INFO 5688 --- [ProjectByteMonk] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

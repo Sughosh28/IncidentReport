@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.ByteMonk.ProjectByteMonk.Controller.IncidentReportSecurityTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.773 s -- in com.example.ByteMonk.ProjectByteMonk.Controller.IncidentReportSecurityTest
